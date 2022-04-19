@@ -1,0 +1,22 @@
+.main-container {
+    height: 100vh;
+    .list-container {
+        height: 100vh;
+        margin: auto;
+        width: 60%;
+        overflow-y: auto;
+        .title {
+            font-weight: 500;
+            font-size: large;
+            text-align: center;
+        }
+    }
+    .candidate-container {
+        height: 50px;
+        background-color: aqua;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+}
